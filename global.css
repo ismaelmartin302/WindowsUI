@@ -1,3 +1,31 @@
 body {
-    background-image: url("assets/background.webp");
+  background-image: url("assets/background.webp");
+  margin: 0;
+}
+
+button {
+  border: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer nav {
+  display: flex;
+  background-color: #1F57D2;
+}
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer nav ul li button {
+  background-color: #44A541;
+  padding: 0.5em 1em;
+}
+footer nav ul li button ul {
+  display: flex;
+  gap: 0.5em;
 }

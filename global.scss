@@ -1,0 +1,36 @@
+body {
+    background-image: url("assets/background.webp");
+    margin: 0;
+}
+
+button {
+    border: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    nav {
+        display: flex;
+        background-color: #1F57D2;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                button {
+                    background-color: #44A541;
+                    padding: 0.5em 1em;
+                    ul {
+                        display: flex;
+                        gap: 0.5em;
+                        li {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
