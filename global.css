@@ -4,6 +4,11 @@ body {
 }
 
 button {
+  font-weight: bold;
+  font-size: 1em;
+  font-style: oblique;
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
   border: 0;
 }
 
@@ -13,19 +18,32 @@ footer {
   width: 100%;
 }
 footer nav {
-  display: flex;
   background-color: #1F57D2;
 }
 footer nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer nav ul li {
   margin: 0;
   padding: 0;
 }
 footer nav ul li button {
   background-color: #44A541;
   padding: 0.5em 1em;
+  border-radius: 0 50em 50em 0;
 }
 footer nav ul li button ul {
   display: flex;
   gap: 0.5em;
+}
+footer nav ul li section {
+  padding: 0.5em 1em;
+  background-color: #1196E4;
+  height: 100%;
+  width: 100%;
 }
